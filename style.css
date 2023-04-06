@@ -1,0 +1,186 @@
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    background-image: url(image/ss.jpg);
+}
+.navig a{
+    float: left;
+    display: block;
+    color: #f5f4f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navig :hover{
+    color: red;
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation:10s slider infinite;
+    font-size: 0;
+    text-align: left;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: 400px;
+}
+@keyframes slider{
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45%{ left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+.ll{
+    float: left;
+}
+.rr{
+    float: right;
+    margin: auto;
+}
+#mid{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.mm{
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+button{
+    background-color: cornsilk;
+}
+.footer{
+    text-align:center; 
+    color: rgb(24, 8, 8);
+    background-color: bisque;
+    border-radius: 5px;
+}
+#cont{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.bdy{
+    background-image: url(image/about.jpg);
+    color: #fff;
+}
+body{
+    background-image: url(image/ssss.jpg);
+    color: rgb(233, 231, 238);
+}
+body h3{
+    color: darkorange;
+}
+.ss{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.ss img{
+    border-radius: 10%;
+
+}
+.gala h3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.mara{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.omo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.vol{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.ser{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.wat{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.ngr{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#kili{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.ethf{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.nkr{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.booking{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

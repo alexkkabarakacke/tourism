@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body class="bdy">
+    <div class="navig">
+        <div class="logo"><img style="width: 80px; height: 80px;" src="image/logo.png" alt="LOGO"></div>
+        <a href="index.html">HOME</a>
+        <a href="service.html">SERVICE</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    </div>
+    <div class="booking">
+        <h1>Services We Offer</h1>
+        <p>Currently our main focus we offer our client with crucial tourism needs to make the enjoy their holiday
+            <br>such services are as follows... <br>
+           1. Accommodation booking: This is one of the most important services we can offer.
+           <br> Users can search and book accommodation according to their preferences and budget. <br>
+
+           2. Transportation booking: we also provide users with the option to book transportation,
+           <br> such as flights, trains, buses, and rental cars. <br>
+
+           3. Tour packages: Tour packages can include pre-planned itineraries, transportation, 
+            <br> accommodation, and activities. Users can choose from a variety of packages
+            <br> according to their interests. <br>
+
+           4. Travel insurance:We also offer travel insurance to its users to protect them from any
+           <br> unforeseen circumstances during their trip. <br><br>
+           please use the form below to select and communicate what you want us to offer for you. <br><br>
+        </p>
+        <form action="booking.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option value="haircut">Accommodation booking</option>
+              <option value="color">Transportation booking</option>
+              <option value="styling">Tour packages</option>
+              <option value="styling">Travel insurance</option>
+            </select><br><br>
+            
+            <input type="submit" value="Book now">
+          </form>
+          
+
+    </div>
+    
+</body>
+</html>
